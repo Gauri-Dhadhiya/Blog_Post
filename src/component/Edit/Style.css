@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.blogpost {
+  padding: 20px;
+}
+label {
+  padding-right: 26px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  height: 40px;
+  border: 2px solid;
+}
+.textarea {
+  height: 118px;
+}
+.submit {
+  background-color: #057c05;
+  width: 84px;
+  height: 35px;
+  color: whitesmoke;
+  margin-right: 17px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.submit:hover {
+  background-color: #045b04;
+  transform: translateY(-2px);
+}
+
+.submit:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.entervalue {
+  padding-left: 50px;
+  display: inline;
+}
+.cancel {
+  background-color: #c40c04; 
+  width: 84px;
+  height: 35px;
+  color: whitesmoke; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 8px 12px; 
+  font-size: 16px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.cancel:hover {
+  background-color: #a40a03; 
+  transform: translateY(-2px); 
+}
+
+.cancel:active {
+  transform: translateY(0); 
+  box-shadow: none; 
+}
+
+.back {
+  background-color: rgb(85 42 42 / 38%);
+  height: 100vh;
+}
+.index {
+  float: left;
+}

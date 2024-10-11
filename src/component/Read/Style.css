@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+button {
+  margin-right: 10px;
+}
+.like-btn {
+  background-color: #0ba6ff;
+  width: 73px;
+  height: 25px;
+  color: antiquewhite;
+  border: 2px solid blue;
+  margin-top: 7px;
+  border-radius: 5px;
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+.like-btn:hover {
+  background-color: #2d37ee; 
+  transform: translateY(-2px); 
+}
+.edit-btn {
+  background-color: #00ad00;
+  width: 73px;
+  height: 25px;
+  color: antiquewhite;
+  border: 2px solid green;
+  margin-top: 7px;
+  border-radius: 5px;
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+.edit-btn:hover {
+  background-color: #04451b; 
+  transform: translateY(-2px); 
+}
+
+.delete-btn {
+  background-color: rgb(197, 18, 18);
+  width: 73px;
+  height: 25px;
+  color: antiquewhite;
+  border: 2px solid rgb(91, 84, 84);
+  margin-top: 7px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+.delete-btn:hover {
+  background-color: #590505;
+  transform: translateY(-2px);
+}
+
+.section {
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.content {
+  margin-top: 29px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 90px;
+  width: 92%;
+  background-color: antiquewhite;
+  height: 80%;
+}
+p {
+  margin-left: 54px;
+  padding-top: 24px;
+  padding-right: 50px;
+}
